@@ -133,6 +133,13 @@
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="PowerPellet.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputManager.hpp" />
+    <ClInclude Include="ScanCode.hpp" />
+    <ClInclude Include="Utils.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
